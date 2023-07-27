@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe-AI</title>
+
+    <!-- googe fonts {font-family: 'Bruno Ace SC', cursive;
+font-family: 'Cedarville Cursive', cursive;} -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Cedarville+Cursive&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Tic Tac Toe - You vs AI</h1>
+    <div class="container" id="selectPlayer">
+        <button class="button" onclick="selectedPlayer('X')">Play as X</button>
+        <button class="button" onclick="selectedPlayer('O')">Play as O</button>
+    </div>
+    <div class="game" id="game" hidden>
+        <h2 id="user" class="heading user"></h2>
+        <h2 class="heading user status" id="status"></h2>
+        <table id="board">
+            <tr>
+                <td id="00" onclick="clicked([0,0])"></td>
+                <td id="01" onclick="clicked([0,1])"></td>
+                <td id="02" onclick="clicked([0,2])"></td>
+            </tr>
+            <tr>
+                <td id="10" onclick="clicked([1,0])"></td>
+                <td id="11" onclick="clicked([1,1])"></td>
+                <td id="12" onclick="clicked([1,2])"></td>
+            </tr>
+            <tr>
+                <td id="20" onclick="clicked([2,0])"></td>
+                <td id="21" onclick="clicked([2,1])"></td>
+                <td id="22" onclick="clicked([2,2])"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
