@@ -17,6 +17,6 @@ Welcome to my Tic Tac Toe project! This is a simple implementation of the classi
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/tic-tac-toe.git
+   git clone https://github.com/anuragganga/tic-tac-toe.git
 
 Feel free to modify it to better fit your project!
